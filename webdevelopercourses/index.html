@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample web page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg" type="image/jpg">
+</head>
+<body>
+    <img src="logo.jpg" alt="Logo" width="100" height="100">
+    <h1 style = "color: red;">Welcome to My Page</h1>
+    <h2 style = "font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Welcome to My Page</h2>
+    <h3>Welcome to My Page</h3>
+    <h4>Welcome to My Page</h4>
+    <h5>Welcome to My Page</h5>
+    <h6>Welcome to My Page</h6>
+    <p style = "font-size: 300%;">This is a paragraph of text on my page. <br>This is another paragraph of text on my page.</p>
+    <a href="https://github.com/Srilekha-S">My  github Profile</a>
+    <h3> Fruits List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Date</li>
+    </ul>
+    <h3>Vegetables List</h3>
+    <ol>    
+        <li>Carrot</li>
+        <li>Broccoli</li>
+        <li>Spinach</li>
+        <li>Potato</li> 
+    </ol>
+    <h3> Student Table</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>20</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>22</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td>21</td>
+            <td>C</td>
+        </tr>
+    </table>
+    <form action="/submit-task" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for ="male">Male</label>
+        <input type = "radio" id ="male" name = "gender" value ="Male"><br>
+        <br>
+        <label for ="female">Female</label>
+        <input type = "radio" id ="female" name = "gender" value ="Female"><br>
+        <br>
+        <label for="country">India</label>
+        <input type="checkbox" id="India" name="country" value = "India"><br><br>
+        <label for="country">US</label>
+        <input type="checkbox" id="US" name="country" value = "US"><br><br>
+        <label for="country">Korea</label>
+        <input type="checkbox" id="Korea" name="country" value = "Korea"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <canvas id="myCanvas" width="200" height="100" style="border:5px dashed #e21616;background-color: yellow; box-shadow: 2px 2px 5px blue;"></canvas>
+    <svg width = "200" height = "200">
+        <circle cx = "100" cy = "100" r ="80" stroke = "black" stroke-width = "2" fill = "red" />
+        
+    </svg>
+    <svg width = "200" height = "200">
+    <rect x = "50" y = "50" width = "100" height = "100" stroke = "black" stroke-width = "2" fill = "blue" />
+    </svg>
+    <svg width = "200" height = "200">
+    <polygon points = "100,10,40,190,160,190" stroke="blue" stroke-width ="5" fill="green"/>
+    </svg>
+</body>
+</html>
+
